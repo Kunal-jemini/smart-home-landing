@@ -5,12 +5,12 @@ export default function AboutSection() {
         
         {/* Header */}
         <div className="text-center mb-20">
-          <p className="text-xs uppercase tracking-[0.4em] text-emerald-400 mb-6 font-semibold">
+          <p className="text-xs uppercase tracking-[0.4em] text-yellow-400 mb-6 font-semibold">
             About
           </p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight">
             SmartCogni —<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-teal-400 to-cyan-400">
               Built with Care
             </span>
           </h2>
@@ -27,13 +27,13 @@ export default function AboutSection() {
               className="w-full h-[500px] lg:h-[600px] object-cover rounded-3xl shadow-2xl shadow-black/50 group-hover:scale-[1.02] transition-all duration-700"
             />
             {/* Decorative overlay */}
-            <div className="absolute -inset-2 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700" />
+            <div className="absolute -inset-2 bg-gradient-to-r from-yellow-500/10 to-cyan-500/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700" />
           </div>
 
           {/* Right: Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <p className="text-emerald-400 text-sm uppercase tracking-[0.3em] font-semibold">
+              <p className="text-yellow-400 text-sm uppercase tracking-[0.3em] font-semibold">
                 Our Story
               </p>
               <h3 className="text-3xl md:text-4xl font-black text-white leading-tight">
@@ -54,7 +54,7 @@ export default function AboutSection() {
                 { num: "1yr",  label: "Warranty" },
               ].map((stat, i) => (
                 <div key={i} className="group">
-                  <p className="text-4xl md:text-5xl font-black text-white group-hover:text-emerald-400 transition-colors duration-300">
+                  <p className="text-4xl md:text-5xl font-black text-white group-hover:text-yellow-400 transition-colors duration-300">
                     {stat.num}
                   </p>
                   <p className="text-slate-500 text-sm font-medium mt-1 uppercase tracking-wider">
@@ -66,7 +66,7 @@ export default function AboutSection() {
 
             {/* CTA */}
             <div className="pt-8 border-t border-slate-800">
-              <a href="#products" className="inline-flex items-center gap-3 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-900 font-bold text-lg rounded-2xl transition-all duration-300 hover:-translate-y-1 shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40">
+              <a href="#products" className="inline-flex items-center gap-3 px-8 py-4 bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold text-lg rounded-2xl transition-all duration-300 hover:-translate-y-1 shadow-xl shadow-yellow-500/25 hover:shadow-yellow-500/40">
                 Start Your Smart Home
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

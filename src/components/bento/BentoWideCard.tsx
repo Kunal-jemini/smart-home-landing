@@ -26,13 +26,13 @@ export default function BentoWideCard({
         </div>
 
         <div className="space-y-1.5">
-          <h3 className="text-xl font-bold text-white group-hover:text-emerald-300 transition-colors duration-300 leading-tight">
+          <h3 className="text-xl font-bold text-white group-hover:text-yellow-300 transition-colors duration-300 leading-tight">
             {label}
           </h3>
           <p className="text-white/40 text-sm leading-relaxed group-hover:text-white/60 transition-colors duration-300">
             {description}
           </p>
-          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-400 group-hover:gap-2.5 transition-all duration-300 pt-1">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-yellow-400 group-hover:gap-2.5 transition-all duration-300 pt-1">
             Explore all
             <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />

@@ -12,8 +12,8 @@ export const bentoLayout: BentoConfig[] = [
   { id: "controllers-panels",     col: "md:col-span-10", row: "md:row-span-2" }, // Larger card
   { id: "smart-security",         col: "md:col-span-4", row: "md:row-span-2" },
   { id: "energy-management",      col: "md:col-span-6", row: "md:row-span-1" },
-  { id: "home-comfort",           col: "md:col-span-6", row: "md:row-span-1" },
-  { id: "cleaning-maintenance",   col: "md:col-span-4", row: "md:row-span-1" },
+  { id: "home-comfort",           col: "md:col-span-7", row: "md:row-span-2" },
+  { id: "cleaning-maintenance",   col: "md:col-span-6", row: "md:row-span-1" },
+  { id: "kitchen-appliances",     col: "md:col-span-7", row: "md:row-span-2" },
   { id: "gardening-outdoors",     col: "md:col-span-6", row: "md:row-span-1" },
-  { id: "kitchen-appliances",     col: "md:col-span-4", row: "md:row-span-1" },
 ];

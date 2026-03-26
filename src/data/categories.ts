@@ -61,15 +61,15 @@ export const categories: Category[] = [
     image: "/images/cleaning.png" 
   },
   { 
+    id: "kitchen-appliances", 
+    label: "Smart Kitchen Appliances", 
+    description: "Cookers, coffee makers & more.",
+    image: "/images/smart kitchen.png" 
+  },
+  { 
     id: "gardening-outdoors", 
     label: "Smart Gardening & Outdoors", 
     description: "Sprinklers, outdoor lights & more.",
     image: "/images/gardening.png" 
   },
-  { 
-    id: "kitchen-appliances", 
-    label: "Smart Kitchen Appliances", 
-    description: "Cookers, coffee makers & more.",
-    image: "/images/smart kitchen.png" 
-  }
 ];

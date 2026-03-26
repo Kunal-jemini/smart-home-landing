@@ -6,7 +6,7 @@ export default function ShopBySection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-12 flex items-end justify-between">
           <div>
-            <p className="text-xs uppercase tracking-[0.4em] text-emerald-500 mb-3 font-semibold">
+            <p className="text-xs uppercase tracking-[0.4em] text-yellow-500 mb-3 font-semibold">
               Categories
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
